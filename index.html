@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>EasyTabs.js</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="css/style.css" rel="stylesheet">
+<!--[if lt IE 9]> <script src="js/html5.js"></script> <![endif]-->
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.easytabs.min.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<div class="tab-container">
+			<ul class="tab-nav">
+				<li><a href="#tabs1">HTML Markup</a></li>
+				<li><a href="#tabs2">Required JS</a></li>
+				<li><a href="#tabs3">Example CSS</a></li>
+			</ul>
+
+			<div class="tab-content">
+
+				<div id="tabs1">
+					<div>
+						<h2>HTML Markup for these tabs</h2>
+					</div>
+				</div><!-- tabs -->
+
+				<div id="tabs2">
+					<div>
+						<h2>JS for these tabs</h2>
+						<h2>JS for these tabs</h2>
+						<p>new string</p>
+					</div>
+				</div><!-- tabs -->
+
+				<div id="tabs3">
+					<div>
+						<h2>CSS Styles for these tabs</h2>
+						<h2>CSS Styles for these tabs</h2>
+					</div>
+				</div><!-- tabs -->
+
+			</div>
+		</div><!-- tab-container -->
+
+		<div class="tab-container">
+			<ul class="tab-nav">
+				<li><a href="#tabs1">HTML Markup</a></li>
+				<li><a href="#tabs2">Required JS</a></li>
+				<li><a href="#tabs3">Example CSS</a></li>
+			</ul>
+
+			<div class="tab-content">
+
+				<div id="tabs1">
+					<div>
+						<h2>HTML Markup for these tabs</h2>
+					</div>
+				</div><!-- tabs -->
+
+				<div id="tabs2">
+					<div>
+						<h2>JS for these tabs</h2>
+					</div>
+				</div><!-- tabs -->
+
+				<div id="tabs3">
+					<div>
+						<h2>CSS Styles for these tabs</h2>
+						<h2>CSS Styles for these tabs</h2>
+					</div>
+				</div><!-- tabs -->
+
+			</div>
+		</div><!-- tab-container -->
+
+	</div><!-- wrapper -->
+
+	<script>
+		$('.tab-container').easytabs();
+	</script>
+</body>
+</html>
